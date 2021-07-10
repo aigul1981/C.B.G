@@ -1,0 +1,73 @@
+body img {
+  max-width: 100%;
+}
+
+a {
+  color: azure;
+}
+
+.big_Div {
+  background-image: url(../images/Bg_m.png);
+  background-size: cover;
+}
+
+.text .nav-link {
+  color: #E75849;
+  font-size: 1em;
+}
+
+.features {
+  background: #fcf7f7;
+}
+.features .card {
+  margin-top: -5em;
+}
+.features .nav-link {
+  color: #E75849;
+  font-size: 1em;
+}
+
+.technology .count-number {
+  font-size: 6em;
+  font-weight: bolder;
+  color: #ddd1d1;
+}
+.technology .icons {
+  margin-top: -5em;
+}
+
+.info {
+  background: #E75849;
+  color: azure;
+}
+.info h2 {
+  font-size: 3em;
+}
+.info .fab {
+  font-size: 2em;
+  margin: 0.5em;
+}
+
+.contact h2 {
+  font-size: 3em;
+}
+.contact .nav-link {
+  background: #E75849;
+  width: 6rem;
+  height: 2.5 rem;
+  list-style: none;
+}
+
+.footer {
+  background: #fcf7f7;
+}
+.footer .click {
+  margin: 0.5em;
+  font-size: 1.5em;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .features img {
+    width: 100%;
+  }
+}

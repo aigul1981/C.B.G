@@ -1,0 +1,81 @@
+
+body{
+    img{max-width: 100%;}
+}
+a{
+    color:azure;
+}
+
+.big_Div{
+    background-image: url(../images/Bg_m.png);
+    background-size: cover;
+}
+.text .nav-link{
+    color:#E75849;
+    font-size: 1em;
+}
+
+.features{
+    background: rgb(252, 247, 247);
+    .card{
+        margin-top: -5em;
+    }
+
+    .nav-link{
+        color:#E75849;
+        font-size: 1em;
+    }
+}
+
+.technology{
+    .count-number{
+        font-size: 6em;
+        font-weight: bolder;
+        color:rgb(221, 209, 209);
+    }
+
+    .icons{
+        margin-top: -5em;
+    }
+}
+
+.info{
+    background:#E75849;
+    color: azure;
+    h2{
+        font-size: 3em;
+    }
+
+    .fab{
+        font-size: 2em;
+        margin: .5em;
+    }
+}
+
+.contact{
+    h2{
+        font-size: 3em;
+    }
+
+    .nav-link{
+        background:#E75849;
+        width: 6rem;
+        height: 2.5 rem;
+        list-style: none;
+    }
+}
+
+.footer{
+    background: rgb(252, 247, 247);
+    .click{
+        margin: .5em;
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 576px) and(max-width:768px) {
+    .features{
+        img{width:100%;}
+    }
+}
+
